@@ -769,9 +769,9 @@ print("[QO] getgenv="..tostring(getgenv ~= nil)
 InstallTranslator()
 
 local MODULES = {
-	"loadstring(game:HttpGet("https://aka.doubaocdn.com/s/KyKNUnHJpC"))()", -- 核心 / UI / 功能
-	"loadstring(game:HttpGet("https://aka.doubaocdn.com/s/KyKNUnHJpC"))()", -- 主题 / 模块
-	"loadstring(game:HttpGet("https://aka.doubaocdn.com/s/KyKNUnHJpC"))()", -- 核心 / 存档 / 功能
+	"https://aka.doubaocdn.com/s/KyKNUnHJpC", -- 核心 / UI / 功能
+	"https://aka.doubaocdn.com/s/KyKNUnHJpC", -- 主题 / 模块
+	"https://aka.doubaocdn.com/s/KyKNUnHJpC", -- 核心 / 存档 / 功能
 }
 
 task.spawn(function()
